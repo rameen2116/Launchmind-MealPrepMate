@@ -1,0 +1,106 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalized Meal Planning Service</title>
+    <style>
+        /* Global Styles */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: 'Open Sans', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+        /* Layout */
+        .max-width {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        /* Flexbox */
+        .flex {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .item {
+            flex-basis: calc(33.33% - 20px);
+            margin: 20px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            background-color: #fff;
+        }
+        /* Typography */
+        h1 {
+            font-weight: 600;
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+        h2 {
+            font-weight: 500;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        /* Button */
+        button {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #444;
+        }
+    </style>
+</head>
+<body>
+    <section class="max-width">
+        <!-- Hero Section -->
+        <div class="hero">
+            <h1>Personalized Meal Planning Service</h1>
+            <h2>Get tailored meal plans for a healthier you</h2>
+            <button>Sign Up Now</button>
+        </div>
+    </section>
+    <section class="max-width">
+        <!-- Features Section -->
+        <div class="flex">
+            <!-- Feature Card 1 -->
+            <div class="item">
+                <h2>AI Meal Planner</h2>
+                <p>Generate personalized meal plans to suit your taste and dietary needs</p>
+            </div>
+            <!-- Feature Card 2 -->
+            <div class="item">
+                <h2>Grocery List</h2>
+                <p>Auto-generated shopping lists to save you time and effort</p>
+            </div>
+            <!-- Feature Card 3 -->
+            <div class="item">
+                <h2>Recipe Database</h2>
+                <p>Access a vast library of recipes tailored to your preferences</p>
+            </div>
+            <!-- Feature Card 4 -->
+            <div class="item">
+                <h2>Dietary Filters</h2>
+                <p>Filter recipes by allergies and dietary preferences for a personalized experience</p>
+            </div>
+        </div>
+    </section>
+    <footer class="max-width">
+        <!-- Footer -->
+        <p>&copy; 2023 Personalized Meal Planning Service. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+```
