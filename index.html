@@ -1,0 +1,139 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MealMaster</title>
+    <style>
+        /* Global Styles */
+        :root {
+            --dark-color: #2f2f2f;
+            --light-color: #f7f7f7;
+            --primary-color: #3498db;
+            --secondary-color: #e74c3c;
+            --text-color: #333;
+            --background-color: #f9f9f9;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--background-color);
+            color: var(--text-color);
+        }
+
+        /* Layout Styles */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .hero {
+            background-color: var(--dark-color);
+            color: var(--light-color);
+            padding: 50px;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+
+        .hero h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .hero button {
+            background-color: var(--primary-color);
+            color: var(--light-color);
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .hero button:hover {
+            background-color: var(--secondary-color);
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .feature {
+            background-color: var(--light-color);
+            padding: 20px;
+            border: 1px solid var(--text-color);
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .feature h3 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .feature p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        .footer {
+            background-color: var(--dark-color);
+            color: var(--light-color);
+            padding: 20px;
+            text-align: center;
+        }
+
+        .footer a {
+            color: var(--light-color);
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            color: var(--primary-color);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="hero">
+            <h1>MealMaster</h1>
+            <h2>AI-powered weekly meal planning service</h2>
+            <button>Get Started</button>
+        </div>
+        <div class="features">
+            <div class="feature">
+                <h3>Personalized Meal Planning</h3>
+                <p>MealMaster's AI engine uses machine learning algorithms to analyze users' dietary preferences, ingredient intolerances, and schedule constraints to generate a weekly meal plan with customized recipes and grocery lists.</p>
+            </div>
+            <div class="feature">
+                <h3>Grocery List Management</h3>
+                <p>Users can easily manage their grocery lists, add or remove items, and mark items as purchased, making it simple to stay on track with their meal plan and avoid food waste.</p>
+            </div>
+            <div class="feature">
+                <h3>Recipe Suggestions and Filtering</h3>
+                <p>MealMaster provides users with a vast library of recipes that can be filtered by dietary preference, ingredient, cooking time, and more, making it easy to find inspiration and plan meals around their tastes and schedule.</p>
+            </div>
+            <div class="feature">
+                <h3>Integration with Popular Calendars and Scheduling Tools</h3>
+                <p>Users can sync their meal plan and schedule with popular calendars and scheduling tools, ensuring seamless integration with their existing workflow and minimizing conflicts with work or personal commitments.</p>
+            </div>
+        </div>
+        <div class="footer">
+            <p>&copy; 2023 MealMaster. All rights reserved.</p>
+            <a href="#">Terms of Service</a>
+            <a href="#">Privacy Policy</a>
+        </div>
+    </div>
+</body>
+</html>
+```
