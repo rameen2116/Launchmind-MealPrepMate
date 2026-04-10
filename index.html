@@ -1,0 +1,132 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <style>
+        /* Global Styles */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+        /* Max Width Layout */
+        .max-width {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        /* Header Styles */
+        .header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        .header .headline {
+            font-size: 48px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .header .subheadline {
+            font-size: 24px;
+            font-weight: normal;
+            margin-bottom: 20px;
+        }
+        .header .cta {
+            background-color: #fff;
+            color: #333;
+            border: none;
+            padding: 10px 20px;
+            font-size: 18px;
+            cursor: pointer;
+        }
+        .header .cta:hover {
+            background-color: #333;
+            color: #fff;
+        }
+        /* Features Section Styles */
+        .features {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-gap: 20px;
+            padding: 40px;
+        }
+        .feature {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .feature .icon {
+            font-size: 48px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .feature .name {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .feature .description {
+            font-size: 18px;
+            font-weight: normal;
+        }
+        /* Footer Styles */
+        .footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        .footer .copyright {
+            font-size: 14px;
+            font-weight: normal;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="max-width">
+        <header class="header">
+            <h1 class="headline">Delicious, Hassle-Free Meals</h1>
+            <h2 class="subheadline">Get personalized meal planning, grocery lists, and recipe guidance</h2>
+            <button class="cta">Get Started Today!</button>
+        </header>
+        <section class="features">
+            <div class="feature">
+                <div class="icon">🍴</div>
+                <h3 class="name">Personalized Meal Planning</h3>
+                <p class="description">Our AI-powered platform creates customized meal plans based on users' dietary preferences, ingredient allergies, and cooking skills.</p>
+            </div>
+            <div class="feature">
+                <div class="icon">🛍️</div>
+                <h3 class="name">Grocery List Generation</h3>
+                <p class="description">The platform generates a comprehensive grocery list based on the meal plan, making it easy for users to shop for the ingredients they need.</p>
+            </div>
+            <div class="feature">
+                <div class="icon">🍳</div>
+                <h3 class="name">Recipe Library and Cooking Guidance</h3>
+                <p class="description">Our platform offers a vast library of recipes with step-by-step cooking instructions, making it easy for users to cook new dishes and experiment with new flavors.</p>
+            </div>
+            <div class="feature">
+                <div class="icon">📈</div>
+                <h3 class="name">Progress Tracking and Goal Setting</h3>
+                <p class="description">Users can track their progress, set health and wellness goals, and receive personalized recommendations to help them stay on track.</p>
+            </div>
+        </section>
+        <footer class="footer">
+            <p class="copyright">&copy; 2023 Your Company Name</p>
+        </footer>
+    </div>
+</body>
+</html>
+```
