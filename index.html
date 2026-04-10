@@ -1,0 +1,132 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthy Meal Planner</title>
+    <style>
+        :root {
+            --primary-color: #2F4F7F;
+            --secondary-color: #F7F7F7;
+            --accent-color: #007bff;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--secondary-color);
+        }
+
+        .max-width {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            background-color: var(--primary-color);
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .hero {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .hero button {
+            background-color: var(--accent-color);
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 18px;
+            cursor: pointer;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .feature {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .feature h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .feature p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        .footer {
+            background-color: var(--primary-color);
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+
+        .footer p {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="max-width">
+        <header class="header">
+            <div class="hero">
+                <h1>Healthy Meal Planner</h1>
+                <p>Get delicious, stress-free meals planned and grocery lists generated based on your unique dietary needs and schedule, saving you time and money every week.</p>
+                <button>Get Started</button>
+            </div>
+        </header>
+        <section class="features">
+            <div class="feature">
+                <h2>Personalized Meal Planning</h2>
+                <p>Generate customized meal plans based on users' dietary preferences, ingredient allergies, and cooking skills, ensuring they get delicious and healthy meals every week.</p>
+            </div>
+            <div class="feature">
+                <h2>Grocery List Generation</h2>
+                <p>Automatically generate a grocery list based on the meal plan, making it easy for users to shop and avoid unnecessary purchases.</p>
+            </div>
+            <div class="feature">
+                <h2>Recipe Library and Filtering</h2>
+                <p>Access a vast library of recipes that can be filtered by dietary preference, ingredient, cooking time, and more, making it easy to find inspiration for meals.</p>
+            </div>
+            <div class="feature">
+                <h2>Scheduling and Reminders</h2>
+                <p>Integrate meal planning with users' schedules, sending reminders for grocery shopping and cooking, ensuring they stay on track and avoid last-minute takeout.</p>
+            </div>
+        </section>
+        <footer class="footer">
+            <p>&copy; 2024 Healthy Meal Planner</p>
+        </footer>
+    </div>
+</body>
+</html>
+```
