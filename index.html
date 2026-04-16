@@ -1,0 +1,244 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalized Meal Planning</title>
+    <style>
+        /* Global Styles */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+        h1 {
+            font-size: 36px;
+            font-weight: bold;
+            color: #333;
+        }
+        h2 {
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        h3 {
+            font-size: 18px;
+            font-weight: bold;
+            color: #666;
+        }
+        p {
+            font-size: 16px;
+            color: #666;
+            margin-bottom: 20px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+        .card {
+            background-color: #f7f7f7;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .cta {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .cta:hover {
+            background-color: #444;
+        }
+        /* Hero Section */
+        .hero {
+            background-image: linear-gradient(to bottom, #333, #555);
+            padding: 100px 0;
+            text-align: center;
+        }
+        .hero h1 {
+            color: #fff;
+        }
+        .hero p {
+            color: #fff;
+            font-size: 18px;
+        }
+        .hero .cta {
+            background-color: #fff;
+            color: #333;
+        }
+        /* Features Section */
+        .features {
+            padding: 50px 0;
+        }
+        .features h2 {
+            margin-bottom: 20px;
+        }
+        .features .grid {
+            grid-gap: 20px;
+        }
+        .features .card {
+            background-color: #f7f7f7;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .features .card h3 {
+            margin-bottom: 10px;
+        }
+        .features .card p {
+            margin-bottom: 20px;
+        }
+        /* Personas Section */
+        .personas {
+            padding: 50px 0;
+        }
+        .personas h2 {
+            margin-bottom: 20px;
+        }
+        .personas .card {
+            background-color: #f7f7f7;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .personas .card h3 {
+            margin-bottom: 10px;
+        }
+        .personas .card p {
+            margin-bottom: 20px;
+        }
+        /* Value Proposition Section */
+        .value-proposition {
+            padding: 50px 0;
+        }
+        .value-proposition h2 {
+            margin-bottom: 20px;
+        }
+        .value-proposition p {
+            margin-bottom: 20px;
+        }
+        /* Call-to-Action Section */
+        .call-to-action {
+            padding: 50px 0;
+            background-color: #f7f7f7;
+        }
+        .call-to-action h2 {
+            margin-bottom: 20px;
+        }
+        .call-to-action .cta {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .call-to-action .cta:hover {
+            background-color: #444;
+        }
+        /* Footer Section */
+        .footer {
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+        }
+        .footer ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        .footer li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+        .footer a {
+            color: #fff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header class="container">
+        <div class="hero">
+            <h1>A Personalized Weekly Meal Planning Service</h1>
+            <p>Save time and stress while catering to your unique dietary needs and preferences.</p>
+            <button class="cta">Get Started</button>
+        </div>
+    </header>
+    <main class="container">
+        <section class="features">
+            <h2>Our Key Features</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>Personalized Meal Planning</h3>
+                    <p>Generate tailored meal plans based on users' dietary preferences, ingredient allergies, and cooking skills, ensuring a perfect fit for their lifestyle and tastes.</p>
+                </div>
+                <div class="card">
+                    <h3>Grocery List Generation</h3>
+                    <p>Automatically create a grocery list based on the meal plan, complete with estimated costs and store availability, making shopping easier and more efficient.</p>
+                </div>
+                <div class="card">
+                    <h3>Recipe Library and Filtering</h3>
+                    <p>Provide access to a vast library of healthy, easy-to-make recipes, filterable by dietary preference, ingredient, cooking time, and more, ensuring users can find what they need in seconds.</p>
+                </div>
+            </div>
+        </section>
+        <section class="personas">
+            <h2>Meet Our Users</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>Emma Taylor</h3>
+                    <p>Marketing Manager</p>
+                    <p>Emma struggles to balance a demanding work schedule with meal planning and grocery shopping, often resorting to takeout or last-minute trips to the grocery store, which can be expensive and unhealthy.</p>
+                </div>
+                <div class="card">
+                    <h3>Rahul Patel</h3>
+                    <p>Software Developer</p>
+                    <p>Rahul has dietary restrictions due to his diabetes and finds it challenging to find recipes and meal plans that cater to his specific needs, leading to frustration and feelings of isolation.</p>
+                </div>
+                <div class="card">
+                    <h3>Lily Chen</h3>
+                    <p>New Mom</p>
+                    <p>Lily is overwhelmed with caring for her newborn and finding time to plan and shop for meals, often relying on convenience foods that are high in sugar and preservatives, which she worries about for her baby's health.</p>
+                </div>
+            </div>
+        </section>
+        <section class="value-proposition">
+            <h2>Our Value Proposition</h2>
+            <p>A personalized weekly meal planning service that saves busy professionals time and stress while catering to their unique dietary needs and preferences.</p>
+        </section>
+        <section class="call-to-action">
+            <h2>Get Started Today!</h2>
+            <button class="cta">Sign Up for a Free Trial</button>
+        </section>
+    </main>
+    <footer class="footer">
+        <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">FAQs</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
+```
